@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+#canvas {
+	background-color: cadetblue;
+	background-position: center;
+	background-image: url('../imagenes/FONDOCT.jpg');
+	background-size: cover;
+  }
+  
+  #title {
+	text-align: center;
+	margin: 5px;
+	font-weight: bold;
+	font-size: 2em;
+  }
+  
+  #canvasDiv {
+	text-align: center;
+  }
+  
+  #botones {
+	margin: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+  }
+  
+  #info {
+	text-align: center;
+	font-size: 1.2em;
+	margin: 20px;
+  }
+  
+  .button {
+	background-color: #e63946;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+  }
+  
+  #canvas {
+	border-radius: 10px;
+  }
+  
+  #reset {
+	visibility: hidden;
+	background-color: #0d0d0e;
+	border: none;
+	color: rgb(255, 255, 255);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+  }
+  
